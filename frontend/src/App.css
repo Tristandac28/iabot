@@ -1,0 +1,74 @@
+/* Simpsons Themed CSS */
+body {
+  background-color: #ffcc00; /* Jaune Simpsons */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+h1 {
+  color: #0057b8; /* Bleu Simpsons */
+  text-shadow: 3px 3px #ff6600; /* Ombre orange Simpsons */
+  font-size: 2.5rem;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ff3300;
+  transform: scale(1.1);
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.input-box {
+  padding: 10px;
+  border: 2px solid #0057b8;
+  border-radius: 8px;
+  width: 50%;
+  font-size: 18px;
+}
+
+.chat-history {
+  margin-top: 20px;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 2px solid #ff6600;
+}
+
+.message strong {
+  color: #0057b8;
+}
+
+.logo {
+  width: 120px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(-10deg) scale(1.2);
+}
